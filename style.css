@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.container{
+    background-color:  hsl(244, 38%, 16%);
+    margin: 4em 2em;
+    border-radius: .4em;
+
+}
+.container h1{
+    margin: 1.5em 0.5em 1em 0.5em;
+    color: hsl(0, 0%, 100%);
+}
+
+.container p{
+    margin: 0em 1.5em 3em 1.5em;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 2em;    
+}
+
+.container .card_picture{
+    background: url(./stats-preview-card-component-main/images/image-header-mobile.jpg) no-repeat center/cover;
+    height: 15.5em;
+    border-radius: 0.4em 0.4em 0em 0em;
+}
+
+.container .card_picture .overlay{
+    background-color:  hsla(277, 64%, 61%,0.4);
+    height: 15.5em;
+    border-radius: 0.4em 0.4em 0em 0em;
+}
+
+.stats h3{
+    margin: 1.5em 6em;
+}
+.stats span{
+    text-transform: uppercase;
+    font-weight: 400;
+}
